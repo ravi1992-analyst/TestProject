@@ -11,5 +11,5 @@ Q3. how to make the framework work and how to execute the test
   - for pushing the code to the Repo. Git bash command line is used.
   
   Q4.next possible steps for improvement
-  1.right now the user name and password are hardcoded, we can send the credentials at the time of the run time.
-  2.some code is used frequently on the testcases, we can make it as a common test cases, which we say code reusability.
+   - right now the user name and password are hardcoded, we can send the credentials at the time of the run time.
+   - some code is used frequently on the testcases, we can make it as a common test cases, which we say code reusability.

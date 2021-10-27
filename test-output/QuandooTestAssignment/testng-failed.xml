@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [QuandooTestAssignment]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://the-internet.herokuapp.com/login"/>
+    <classes>
+      <class name="TestCases.TC1_LoginPage">
+        <methods>
+          <include name="t_03_Validating_logout" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.TC1_LoginPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [QuandooTestAssignment] -->

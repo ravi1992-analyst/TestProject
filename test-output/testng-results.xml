@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Navigated to browser:chromeURL:http://the-internet.herokuapp.com/login]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to browser:chromeURL:http://the-internet.herokuapp.com/login]]>
+    </line>
+    <line>
+      <![CDATA[you have cliced the login button .]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to browser:chromeURL:http://the-internet.herokuapp.com/login]]>
+    </line>
+    <line>
+      <![CDATA[you have cliced the login button .]]>
+    </line>
+  </reporter-output>
+  <suite name="QuandooTestAssignment" duration-ms="12649" started-at="2021-10-27T08:54:21Z" finished-at="2021-10-27T08:54:34Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12649" started-at="2021-10-27T08:54:21Z" finished-at="2021-10-27T08:54:34Z">
+      <class name="TestCases.TC1_LoginPage">
+        <test-method status="PASS" signature="t_01_validating_Url(java.lang.String, java.lang.String)[pri:0, instance:TestCases.TC1_LoginPage@5e5792a0]" name="t_01_validating_Url" duration-ms="4445" started-at="2021-10-27T08:54:21Z" finished-at="2021-10-27T08:54:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://the-internet.herokuapp.com/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to browser:chromeURL:http://the-internet.herokuapp.com/login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- t_01_validating_Url -->
+        <test-method status="PASS" signature="t_02_login(java.lang.String, java.lang.String)[pri:0, instance:TestCases.TC1_LoginPage@5e5792a0]" name="t_02_login" duration-ms="3862" started-at="2021-10-27T08:54:26Z" finished-at="2021-10-27T08:54:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://the-internet.herokuapp.com/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to browser:chromeURL:http://the-internet.herokuapp.com/login]]>
+            </line>
+            <line>
+              <![CDATA[you have cliced the login button .]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- t_02_login -->
+        <test-method status="PASS" signature="t_03_Validating_logout(java.lang.String, java.lang.String)[pri:0, instance:TestCases.TC1_LoginPage@5e5792a0]" name="t_03_Validating_logout" duration-ms="4320" started-at="2021-10-27T08:54:30Z" finished-at="2021-10-27T08:54:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://the-internet.herokuapp.com/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to browser:chromeURL:http://the-internet.herokuapp.com/login]]>
+            </line>
+            <line>
+              <![CDATA[you have cliced the login button .]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- t_03_Validating_logout -->
+      </class> <!-- TestCases.TC1_LoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- QuandooTestAssignment -->
+</testng-results>

@@ -13,3 +13,4 @@
  - Q4.next possible steps for improvement
    - right now the user name and password are hardcoded, we can send the credentials at the time of the run time.
    - some code is used frequently on the testcases, we can make it as a common test cases, which we say code reusability.
+  - we can add TestNG, Allure reporting, Serenity to build a robust framework.
